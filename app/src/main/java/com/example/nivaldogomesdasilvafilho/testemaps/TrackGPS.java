@@ -16,10 +16,6 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.widget.Toast;
 
-/**
- * Created by nivaldogomesdasilvafilho on 1/14/17.
- */
-
 public class TrackGPS extends Service implements LocationListener {
 
     private final Context mContext;

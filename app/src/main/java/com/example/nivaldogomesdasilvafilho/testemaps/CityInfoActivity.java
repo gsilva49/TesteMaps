@@ -54,7 +54,7 @@ public class CityInfoActivity extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent.hasExtra(EXTRA_CIDADE_INFO)) {
             Cidade cidade = (Cidade) intent.getExtras().getSerializable(EXTRA_CIDADE_INFO);
-            nomeTextView.setText("Nome: " + cidade.getNome());
+            nomeTextView.setText("Cidade: " + cidade.getNome());
             tempMaxTextView.setText("Temperatura Máxima: " + cidade.getTempMax() + "°C");
             tempMinTextView.setText("Temperatura Mínima: " + cidade.getTempMin() + "°C");
             descTempoTextView.setText("Descrição de tempo: " + cidade.getDescTempo());

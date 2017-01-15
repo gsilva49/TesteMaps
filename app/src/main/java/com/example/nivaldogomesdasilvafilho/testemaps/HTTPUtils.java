@@ -5,10 +5,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
 
-/**
- * Created by nivaldogomesdasilvafilho on 1/12/17.
- */
-
 public class HTTPUtils {
 
     // Resquest para o API para obter os dados das cidades

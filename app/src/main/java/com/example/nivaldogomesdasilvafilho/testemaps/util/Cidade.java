@@ -2,10 +2,6 @@ package com.example.nivaldogomesdasilvafilho.testemaps.util;
 
 import java.io.Serializable;
 
-/**
- * Created by nivaldogomesdasilvafilho on 1/13/17.
- */
-
 public class Cidade implements Serializable {
 
     private static final long serialVersionUID = 1L;
